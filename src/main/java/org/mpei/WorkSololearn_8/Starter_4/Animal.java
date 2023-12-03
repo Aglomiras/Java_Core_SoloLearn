@@ -1,7 +1,5 @@
 package org.mpei.WorkSololearn_8.Starter_4;
 
-import java.util.Objects;
-
 public class Animal {
     String name;
 
