@@ -13,4 +13,12 @@ public class BankAccount {
      * позволяя получить к ней доступ только с помощью метода deposit, который утверждает количество
      * депозита до модификации переменной.
      * */
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
 }

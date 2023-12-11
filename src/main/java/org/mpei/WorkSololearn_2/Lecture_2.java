@@ -1,5 +1,8 @@
 package org.mpei.WorkSololearn_2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Lecture_2 {
     public static void main(String[] args) {
         /**
@@ -199,7 +202,7 @@ public class Lecture_2 {
          * */
         int x1 = 6;
         while (x1 < 10) {
-            System.out.println(x);
+            System.out.println(x1);
             x1++;
         }
         System.out.println("Loop ended"); //Обратите внимание, что последний метод print выходит за пределы области while.
