@@ -1,4 +1,4 @@
-package org.mpei.WorkSololearn_14.Practic_2;
+package org.mpei.PracticWorkSololearn_1.Practic_2;
 
 import java.util.Random;
 
