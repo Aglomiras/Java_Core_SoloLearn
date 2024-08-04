@@ -8,7 +8,7 @@ public class Practic_1 {
         ExecutorService executor = Executors.newCachedThreadPool();
 
         Runnable task = () -> {
-            int result = 12 * 15;
+            int result = 1 + 1;
             System.out.println(result);
         };
         executor.submit(task);
