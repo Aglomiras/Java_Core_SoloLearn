@@ -10,7 +10,7 @@ public class Practic_4 {
 
         for (int i = 0; i < 5; i++) {
             final int value = i;
-            executor.submit(() -> System.out.println(value));
+            executor.submit(() -> System.out.println(value + " " + Thread.currentThread().getName()));
             //Выведет: 0, 1, 2, 3, 4
         }
     }

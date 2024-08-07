@@ -15,8 +15,8 @@ public class Practic_5 {
 
     public static void longTask() {
         int i = 0;
-        while (i < 10000) {
-            System.out.println(i);
+        while (i < 100) {
+            System.out.println(i + " " + Thread.currentThread().getName());
             i++;
         }
     }

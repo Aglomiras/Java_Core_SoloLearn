@@ -13,11 +13,11 @@ public class MyRunnable implements Runnable {
             System.out.println("Executing " + task + " with " +
                     Thread.currentThread().getName());
         }
-//        try {
-//            Thread.sleep(1000);
-//        } catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         System.out.println();
     }
 }
